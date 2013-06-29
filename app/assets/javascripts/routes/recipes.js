@@ -1,5 +1,5 @@
-Cookingember.RecipesRoute = Em.Route.extend({
+App.RecipesRoute = Em.Route.extend({
   model: function() {
-    return Cookingember.Recipe.find();
+    return App.Recipe.find();
   }
 });

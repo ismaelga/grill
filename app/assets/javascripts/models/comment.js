@@ -1,8 +1,8 @@
-Cookingember.Comment = DS.Model.extend({
+App.Comment = DS.Model.extend({
   body: DS.attr('string')
   // user
 });
 
-Cookingember.Comment.FIXTURES = [
+App.Comment.FIXTURES = [
   { id: 10, body: "So cool!" }
 ];

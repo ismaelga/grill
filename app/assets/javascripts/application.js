@@ -20,6 +20,6 @@
 //= require cookingember
 
 // for more details see: http://emberjs.com/guides/application/
-Cookingember = Ember.Application.create();
+App = Ember.Application.create();
 
 //= require_tree .

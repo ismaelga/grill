@@ -1,14 +1,14 @@
-Cookingember.Recipe = DS.Model.extend({
+App.Recipe = DS.Model.extend({
   title: DS.attr('string'),
   description: DS.attr('string'),
-  comments: DS.hasMany("Cookingember.Comment")
+  comments: DS.hasMany("App.Comment")
   // ingredients
   // instructions
   // photos
   // video
 });
 
-Cookingember.Recipe.FIXTURES = [
+App.Recipe.FIXTURES = [
   { 
     id: 1,
     title: "Fried patatoes",
