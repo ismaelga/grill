@@ -1,0 +1,14 @@
+<h2>Recipes</h2>
+
+<ul>
+{{#each recipe in controller}}
+  <li>
+    <h3>
+      {{#linkTo recipe recipe}}{{recipe.title}}{{/linkTo}}
+    </h3>
+    <blockquote>{{recipe.description}}</blockquote>
+  </li>
+{{/each}}
+</ul>
+
+{{outlet}}
